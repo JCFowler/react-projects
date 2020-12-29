@@ -1,15 +1,19 @@
-import { Button } from '@material-ui/core';
 import React from 'react';
 import { Link } from "react-router-dom";
+import '../../../App.css';
 
 function Home() {
     return (
-        <div>
+        <div className="App">
+            <h1>React projects:</h1>
             <Link to="/hero">
-                <Button variant="contained" color="primary">Hero Builder</Button>
+                <button className="button">Hero Builder</button>
             </Link>
             <Link to="/todo">
-                <Button variant="contained" color="primary">Todo list</Button>
+                <button className="button">Todo list</button>
+            </Link>
+            <Link to="/quiz">
+                <button className="button">Quiz</button>
             </Link>
         </div>
         
