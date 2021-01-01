@@ -15,6 +15,9 @@ function Home() {
             <Link to="/quiz">
                 <button className="button">Quiz</button>
             </Link>
+            <Link to="/space">
+                <button className="button">Space News</button>
+            </Link>
         </div>
         
     )

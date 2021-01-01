@@ -5,6 +5,7 @@ import HeroBuilder from './projects/HeroBuilder';
 import Home from './common/components/Home';
 import ToDoList from './projects/TodoList';
 import QuizApp from './projects/Quiz';
+import SpaceNews from './projects/Space';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/hero' exact component={ HeroBuilder } />
           <Route path='/todo' exact component={ ToDoList } />
           <Route path='/quiz' exact component={ QuizApp } />
+          <Route path='/space' exact component={ SpaceNews } />
         </Switch>
       </Router>
     </div>
